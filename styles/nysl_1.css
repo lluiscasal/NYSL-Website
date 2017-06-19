@@ -1,0 +1,499 @@
+
+body {
+    background: url("../grass_fosc.png") repeat;
+    height: 850px;
+    margin: 0px;
+    width:100%;
+}
+
+h1 {
+    font-size: 60px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight: 500;
+    margin: 0;
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 27px;
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-weight:bold;
+}
+
+p {
+    font-family: sans-serif;
+    font-size:14pt;
+    color: whitesmoke;
+}
+
+
+header{
+  width: 100%;
+    height: 356px;
+    background: url("../design1_image1_small.jpg") no-repeat;
+    background-size:100%;
+}
+
+header h1{
+    float: right;
+    text-align: left;
+    margin-right: 40px;
+    }
+
+header img {
+    float: left;
+    margin-top: 80px;
+    margin-left: 40px;
+}
+ 
+
+aside{
+    width:35%;
+    float: left;
+   
+   
+}
+
+aside img{
+    display: inline;
+    width: 100%;
+     margin: 20px;
+    border: 5px solid darkgreen;
+}
+
+nav{
+    font-family: sans-serif;
+    font-size:16pt; 
+    width: 100%;
+    overflow: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+nav li{
+    list-style: none;
+    text-align: center;
+    margin-left: 2pt;
+    margin-right: 2pt;
+    float: right;
+    color: black;
+    font-weight: bold;
+    background-color: darkgreen;
+    padding: 5px;
+    border: 2px black solid;
+}
+
+section{
+    width: 100%;
+    overflow: auto;
+    padding-top: 20px;
+}
+
+.homeright{    
+    display: inline-block;
+    width: 55%;
+    margin-left: 100px;
+}
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+    clear: both;
+    
+}
+
+footer img{
+    
+    padding: 30px;
+}
+
+footer h2{
+      padding: 30px;
+    
+}
+
+.img2b{
+    float: left;
+    width:250px;
+    height: 372px;
+    box-shadow: 5px 5px 5px grey;
+    background-image: url("soccer_image1.jpeg"); 
+    margin: 0 1.5%; 
+}
+
+
+.infoabout{
+    float: left;
+    width: 70%;
+}
+
+.img2{
+    float:left;
+    width:250px;
+    height: 290px;
+    box-shadow: 5px 5px 5px grey;
+    background-image: url("soccer_image2.jpeg");
+    margin-right: 50px;
+}
+
+
+.img3{
+    float:left;
+    width:250px;
+    height: 375px;
+    box-shadow: 5px 5px 5px grey;
+    background-image: url("soccer_image3.jpeg"); 
+    margin-right: 40px;
+}
+
+.contact{
+    float: left;
+    width: 90%;
+   margin-top: 150px;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* unvisited link */
+a:link {
+    color: whitesmoke;
+}
+
+/* visited link */
+a:visited {
+    color: whitesmoke;
+}
+
+/* mouse over link */
+a:hover {
+    color: limegreen;
+}
+
+/* selected link */
+a:active {
+    color: yellow;
+}
+
+.cgreen{
+    color: #32cd32;   
+}
+
+#logo2{
+    float: right;
+}
+
+li {
+    font-size: 22px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+table{
+    border: 1px solid black;
+    background-color: black;
+    font-family: sans-serif;
+    width: 95%;
+    margin-bottom: 50px;
+}
+
+tr, td {
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding: 5px;
+    
+}
+
+th{
+    
+  background-color: black;
+    border: 1px solid black;
+    padding: 5px;  
+    color:white;
+    
+}
+
+td{
+    text-align: center;
+}
+
+.mes{
+    color:red;
+}
+
+
+.franjacap {
+    width: 100%;
+    height: 70px;
+    background-color: black;
+    color: whitesmoke;
+    clear: both;
+    text-align: center;
+    float: left;
+    opacity: 0.7;
+    overflow: auto;
+   
+}
+
+.square {
+    list-style-type: square;
+}
+
+.none{
+    list-style-type: none;
+}
+
+.circle{
+     list-style-type: circle;
+}
+
+.italic{
+    
+    font-style: italic;
+}
+
+form {
+    
+    margin-bottom: 50px;
+}
+
+.form_first {
+    
+    color: white; 
+    margin-bottom: 20px;
+    width: 95%;
+}
+
+.form_linia1 {
+    
+    display: flex;
+    width: 100%;
+    
+}
+
+.first_name, .last_name {
+    
+  width: 50%;  
+    
+}
+
+
+
+
+.form_linia2 {
+    width: 100%;
+    
+}
+
+.form_linia2 input {
+    
+    width: 500px;
+    
+}
+
+
+.form_linia3 {
+      display: flex;
+    width: 100%;
+}
+
+.city, .zipcode {
+    
+  width: 50%;    
+    
+}
+
+.form_linia4 {
+    
+     display: flex;
+    width: 100%;
+}
+
+.birthdate {
+    
+    
+width: 50%;
+}
+
+
+.gender {
+    
+     width: 50%;
+    
+}
+
+
+.grade {
+    
+    width: 100%;
+}
+
+
+
+.form_linia6 {
+    
+    width: 100%; 
+}
+
+.form_linia6 input {
+    
+    width: 400px;
+}
+
+
+
+.form_linia7 {
+    
+    display: flex;
+    width: 100%;
+} 
+
+.phone, .mail {
+    
+    width: 50%;
+}
+
+
+.first_name, .last_name, .st_address, .city, .zipcode, .birthdate, .gender, .grade, .parent, .phone, .mail {
+    
+    padding: 20px;
+   
+}
+
+
+.form_second {
+    color: white; 
+    margin-bottom: 20px;
+    width: 95%;
+    padding: 10px;
+    
+}
+
+
+.school {
+    font-family: sans-serif;
+    font-size:14pt;
+    color: whitesmoke;
+}
+
+
+.first_closest_school, .second_closest_school {
+    
+    display: flex;
+     flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+
+.schools {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.grup1, .grup2, .grup3, .grup4 {
+    
+    display: flex;
+    
+    
+}
+
+.col1, .col2, .col3, .col4 {
+    
+   
+    margin-right: 10px;
+    
+}
+
+
+.jersey_size, .shorts_size {
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.uniform2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.jerseygrup, .shortsgrup {
+    
+    display: flex;
+    margin-right: 90px;
+    
+}
+
+.jerseycol1, .jerseycol2, .shortscol1, .shortscol2 {
+    
+   
+    margin-right: 10px;
+    
+}
+
+.uniform1 {
+    font-family: sans-serif;
+    font-size:14pt;
+    color: whitesmoke;
+}
+
+
+.form_third p {
+    
+    
+font-size: 12px;
+}
+
+.form_end {
+    
+    font-size: 12px;
+    color:white;
+}
+
+.form_end input {
+    
+    width:200px;
+    
+}
+
+.form_third {
+    
+    width: 95%;
+}
+
+.maps {
+    
+    display: flex;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.maps div {
+    
+     width: 30%;
+    background-color: black;
+    text-align: center;
+    margin: 10px;
+}
